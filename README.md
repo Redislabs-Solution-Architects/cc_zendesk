@@ -20,6 +20,14 @@ Run the following commands to install the requirments for the script:
 
 ```
 python3 -m env env
+```
+On ubuntu 20 i run the following:
+
+```
+virtualenv -p /usr/bin/python3 env
+```
+and then
+```
 env/bin/pip install -r requirements.txt
 ```
 
