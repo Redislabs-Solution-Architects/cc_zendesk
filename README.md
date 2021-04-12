@@ -4,9 +4,20 @@ This script will  retrieve all the accounts that the cc_on_all_org_tickets field
 
 It will store the results on a csv file.
 
+# Requirments
+1. python3
+2. pip and virtualenv installed
+
+On linux, if the virtualenv is missing install it by:
+
+```
+sudo apt-get install python3-pip
+sudo pip3 install virtualenv virtualenvwrapper
+```
+
  
 
-Installation instructions
+# Installation instructions
 
 
 
