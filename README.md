@@ -25,4 +25,5 @@ Run the following commands to install the requirments for the script:
 Run the script by
 
 **env/bin/python cc_zendesk.py**
+
 The script will create an organization_list.csv, containing all account with CC defined
