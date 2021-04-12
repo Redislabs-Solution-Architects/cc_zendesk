@@ -38,6 +38,7 @@ virtualenv -p /usr/bin/python3 env
 ```
 3. Install required modules
 ```
+source env/bin/activate
 env/bin/pip install -r requirements.txt
 ```
 
