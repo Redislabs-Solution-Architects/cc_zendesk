@@ -4,7 +4,7 @@ This script will  retrieve all the accounts that the cc_on_all_org_tickets field
 
 It will store the results on a csv file.
 
-# Requirments
+# Requirements
 1. python3
 2. pip and virtualenv installed
 
