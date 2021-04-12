@@ -12,17 +12,17 @@ Installation instructions
 
 clone this repository 
 
-git clone https://github.com/Redislabs-Solution-Architects/cc_zendesk.git
+**git clone https://github.com/Redislabs-Solution-Architects/cc_zendesk.git**
 
 change directory to cc_zendesk.
 Run the following commands to install the requirments for the script:
 
 
 
-python3 -m env env
-env/bin/pip install -r requirements.txt
+**python3 -m env env**
+**env/bin/pip install -r requirements.txt**
 
 Run the script by
 
-env/bin/python cc_zendesk.py
+**env/bin/python cc_zendesk.py**
 The script will create an organization_list.csv, containing all account with CC defined
