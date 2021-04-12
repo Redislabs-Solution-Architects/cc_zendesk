@@ -33,6 +33,6 @@ env/bin/pip install -r requirements.txt
 
 Run the script by
 ```
-env/bin/python cc_zendesk.py
+env/bin/python search_cc_zendesk.py
 ```
 The script will create an organization_list.csv, containing all account with CC defined
