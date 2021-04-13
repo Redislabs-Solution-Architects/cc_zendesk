@@ -3,7 +3,7 @@
 This script will retrieve all the accounts that the cc_on_all_org_tickets field is not empty in zendesk.
 It will store the results on a csv file.
 
-# Requirements
+## Requirements
 1. python3
 2. pip and virtualenv installed
 
@@ -16,7 +16,7 @@ sudo pip3 install virtualenv virtualenvwrapper
 
  
 
-# Installation instructions
+## Installation instructions
 
 
 
@@ -25,24 +25,30 @@ sudo pip3 install virtualenv virtualenvwrapper
 git clone https://github.com/Redislabs-Solution-Architects/cc_zendesk.git
 ```
 2. change directory to cc_zendesk.
-Run the following commands to install the requirments for the script:
+3. Create a virtual environment directory:
 
-
+On Windows:
 ```
 python3 -m env env
 ```
-On ubuntu 20 i run the following:
-
+On Linux and MacOS:
 ```
 virtualenv -p /usr/bin/python3 env
 ```
-3. Install required modules
+
+4. Activate Virtual Environment 
+
+```
+source env/bin/activate
+```
+
+5. Install required modules
 ```
 env/bin/pip install -r requirements.txt
 ```
 
-4. Run the script by
+6. Run the script by
 ```
 env/bin/python search_cc_zendesk.py
 ```
-The script will create an organization_list.csv, containing all account with CC defined
+The script will create an **organization_list.csv** file, containing all account with CC defined
