@@ -44,6 +44,7 @@ source env/bin/activate
 
 5. Install required modules
 ```
+source env/bin/activate
 env/bin/pip install -r requirements.txt
 ```
 
