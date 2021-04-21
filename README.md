@@ -53,3 +53,7 @@ env/bin/pip install -r requirements.txt
 env/bin/python search_cc_zendesk.py
 ```
 The script will create an **organization_list.csv** file, containing all account with CC defined
+
+In case of an error like:
+PermissionError: [Errno 1] Operation not permitted: '/usr/bin/python3' -> '
+It mean You are trying to create virtualenv on external SD card, so virtualenv cannot create symlinks and/or set executable permissions. Try to do this in your $HOME directory.
